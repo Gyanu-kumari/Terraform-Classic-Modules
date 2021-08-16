@@ -7,6 +7,4 @@ output "s3-bucket-arn" {
   value = "${aws_s3_bucket.bucket.arn}"
 }
 
-output "s3-region" {
-  value = "${aws_s3_bucket.bucket.region}"
-}
+
