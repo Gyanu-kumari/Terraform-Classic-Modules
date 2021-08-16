@@ -1,7 +1,7 @@
 #S3 VARIABLES
 
 variable "region" {
-  default = "us-east-1"
+  default = ""
 }
 
 variable "bucket-name" {
