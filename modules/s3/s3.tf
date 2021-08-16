@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "bucket" {
 
   bucket = "${var.bucket-name}"
 
-  region = "us-east-1"
+  region = "${var.region}"
 
   acl    = "${var.acl}"
 
