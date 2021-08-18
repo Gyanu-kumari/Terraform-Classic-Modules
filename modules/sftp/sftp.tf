@@ -1,7 +1,7 @@
 provider "aws" {
   region = "${var.region}"
-  access_key = AKIAWKEAKANZX7OMSCWW
-  secret_key = 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
+  aws_access_key_id = AKIAWKEAKANZX7OMSCWW
+  aws_secret_access_key = 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
 }
 resource "aws_transfer_server" "sftp" {
   identity_provider_type = "SERVICE_MANAGED"
